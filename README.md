@@ -1,8 +1,4 @@
-# Supporting the preservation of legacy source code.
-
-Instantiating this template creates a workbench to support the acquisition of legacy source code, according to [SWHAP](https://www.softwareheritage.org/swhap/), the [Software Heritage](https://www.softwareheritage.org/) Acquisition Process defined by the [SWHAP\@Pisa](
-    #TODO:
-) project.
+# Coq proof of the Four Color Theorem, version 1.0 (Coq v7.3.1)
 
 The workbench comes with the predefined folders that are used in the supported process. Namely:
 
@@ -16,6 +12,6 @@ The workbench comes with the predefined folders that are used in the supported p
 
 - Folder [additional materials](./additional_materials) is for materials originated during the recovery process to document it or to shed new light on the recovered software project.
 
-Please note that this file need be **replaced** in the instantiated workbench.
+[Information on the acquisition of this code](https://github.com/BapMel/4CT-coq-v1.0-Workbench/tree/master/metadata) can be found in the [4CT-coq-v1.0-Workbench](https://github.com/BapMel/4CT-coq-v1.0-Workbench) repository.
 
 Please look at the [SWHAPPE repository](https://github.com/Unipisa/SWHAPPE/blob/master/README.md) and the [guidelines](https://github.com/SoftwareHeritage/swhapguide/blob/master/SWHAP%40Pisa.pdf)  for more details. 
