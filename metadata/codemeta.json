@@ -1,50 +1,50 @@
 {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
-    "identifier": "a unique identifier",
-    "description": "a brief description of the software",
-    "applicationCategory" : "Type of software application, e.g. 'Game, Multimedia'",
-    "name": "software name",
-    "codeRepository":  "URL to related resources",
-    "license": "info about the license",
-    "version": "X.X",
+    "identifier": "4CT-coq-v1.0",
+    "description": "Proof of the Four Color Theorem v1.0 for Coq 7",
+    "applicationCategory" : "Formal proof",
+    "name": "Coq proof of the Four Color Theorem",
+    "codeRepository":  "https://github.com/BapMel/4CT-coq-v1.0",
+    "license": "Microsoft Research Shared Source license agreement",
+    "version": "MSR-SSLA",
     "keywords" : [
-        "tag for the software", 
-        "other tag"
+        "Four Color Theorem", 
+        "Coq proof assistant"
     ],
-    "releaseNotes" : "release notes and comments",
-    "funding" : "software funded by...(e.g. specific grant)",
-    "runtimePlatform" : "operating system",
-    "softwareRequirements" : ["dependencies and other requirements"],
-    "developmentStatus" : "from https://www.repostatus.org/ e.g. Unsupported", 
-    "dateCreated" : "YYYY-MM-DD",
-    "datePublished" : "YYYY-MM-DD",
-    "relatedLink" : ["https://..", "http://.."],
-    "programmingLanguage" : "main programming language",
-     "isPartOf" : "maybe the software is part of some project",
+    // "releaseNotes" : "release notes and comments",
+    // "funding" : "software funded by...(e.g. specific grant)",
+    // "runtimePlatform" : "operating system",
+    "softwareRequirements" : ["coq"],
+    // "developmentStatus" : "from https://www.repostatus.org/ e.g. Unsupported", 
+    "dateCreated" : "2005-02-23",
+    "datePublished" : "2005-02-23",
+    // "relatedLink" : ["https://..", "http://.."],
+    "programmingLanguage" : "coq",
+     // "isPartOf" : "maybe the software is part of some project",
     "referencePublication" : [ 
       {
           "@type": "ScholarlyArticle",
           "idendifier": "https://doi.org/xx.xxxx/xxxx.xxxx.xxxx",
-          "name": "title of publication"
+          "name": "Formal proof. The Four-Color Theorem"
       }
       ],
     "author": [
       {
         "@type": "Person",
-        "givenName": "Given",
-        "familyName": "Family",
-        "affiliation" : "affiliation at the time of development",
-        "email": "given.family@org.com"
+        "givenName": "Georges",
+        "familyName": "Gonthier",
+        "affiliation" : "Microsoft",
+        "email": "georges.gonthier@inria.fr"
       }
     ],
     "contributor": [
     {
-        "@type": "Person",
-        "givenName": "Given",
-        "familyName": "Family",
-        "affiliation" : "affiliation at the time of development",
-        "email": "given.family@org.com"
+        // "@type": "Person",
+        // "givenName": "Baptiste",
+        // "familyName": "Mélès",
+        // "affiliation" : "CNRS, Université de Lorraine",
+        // "email": "baptiste.meles@univ-lorraine.fr"
     }
     ]
 }
