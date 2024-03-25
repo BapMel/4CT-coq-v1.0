@@ -1,16 +1,17 @@
 # Coq proof of the Four Color Theorem, version 1.0 (Coq v7.3.1)
 
-The workbench comes with the predefined folders that are used in the supported process. Namely:
+This repository contains the [Coq proof of the Four Color Theorem v1.0
+Development History] (https://github.com/BapMel/4CT-coq-v1.0/tree/SourceCode/).
 
-- Folder [raw materials](./raw_materials) is for the original materials, as they have been found or submitted.
+The original finds are stored in the [Depository](https://github.com/BapMel/4CT-coq-v1.0-Depository) 
+containing the
+[raw materials](https://github.com/BapMel/4CT-coq-v1.0-Depository/tree/master/raw_materials) and the
+[browsable source](https://github.com/BapMel/4CT-coq-v1.0-Depository/tree/master/browsable_source).
 
-- Folder [browsable source](./browsable_source) is for a browsable version of the source code. Source files, with the right extension, have to be accessible through the GitHub web interface, e.g., archives should be decompressed, code should be transcribed if provided by images, etc.
+[Information on the acquisition of this code](https://github.com/BapMel/4CT-coq-v1.0-Workbench/tree/master/metadata) can be found in the [CMM-Workbench](https://github.com/Unipisa/CMM-Workbench) repository.
 
-- Folder [source](./source) is for the curated revision of the source code, as a base for the reconstruction of the development history as a git repository.
-
-- Folder [metadata](/.metadata) holds various files with meta information (catalogue, actors, journal, tags) to be updated throughout the process. 
-
-- Folder [additional materials](./additional_materials) is for materials originated during the recovery process to document it or to shed new light on the recovered software project.
+This repository was created with the support of the 
+[Software Heritage Acquisition Process Pisa Enactor](https://github.com/Unipisa/SWHAPPE).
 
 [Information on the acquisition of this code](https://github.com/BapMel/4CT-coq-v1.0-Workbench/tree/master/metadata) can be found in the [4CT-coq-v1.0-Workbench](https://github.com/BapMel/4CT-coq-v1.0-Workbench) repository.
 
